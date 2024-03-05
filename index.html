@@ -3,36 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Handjet:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>Sibu Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14;49, scattered clouds
-          <b />
-          Humidity: 66%, Wind: 3km/h
-        </p>
-      </div>
-      <div>🌤️ 12°C</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Sibu-code"> Sibsisiwe Gwayi </a>, is
-      <a href="https://github.com/Sibu-code/vanilla-weather-app.git"
-        >open sourced on GitHub</a
-      >
-      and
-      <a href="https://sibu-vanilla-weather-app.netlify.app/">
-        hosted on Netifly
-      </a>
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city.." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14;49, scattered clouds
+            <b />
+            Humidity: 66%, Wind: 3km/h
+          </p>
+        </div>
+        <div>🌤️ 12°C</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Sibu-code"> Sibsisiwe Gwayi </a>, is
+        <a href="https://github.com/Sibu-code/vanilla-weather-app.git"
+          >open sourced on GitHub</a
+        >
+        and
+        <a href="https://sibu-vanilla-weather-app.netlify.app/">
+          hosted on Netifly
+        </a>
+      </footer>
+    </div>
   </body>
 </html>
