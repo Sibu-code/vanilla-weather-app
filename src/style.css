@@ -1,9 +1,12 @@
 body {
   background-color: #f9f7fe;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 a {
   color: #885df1;
+}
+div {
+  display: block;
 }
 .weather-app {
   background: white;
@@ -35,7 +38,7 @@ header {
   color: #f9f7fe;
 }
 main {
-  padding: 30px o;
+  padding: 30px 0;
 }
 .weather-app-data {
   display: flex;
@@ -61,13 +64,13 @@ main {
 }
 
 .weather-app-icon {
-  width: 88px;
-  height: 88px;
+  font-size: 44px;
+  margin-top: 22px;
 }
 
 .weather-app-temperature {
   font-size: 88px;
-  line-height: 88px;
+  margin-left: 10px;
   font-weight: bold;
 }
 
